@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFAA55"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text="Profile" />
+
+            <TextView
+                android:id="@+id/tvfirst_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="First Name" />
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter first_name"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvlast_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Last Name" />
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter last_name"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvheight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Height" />
+            <EditText
+                android:id="@+id/height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter height"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvweight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Weight" />
+
+            <EditText
+                android:id="@+id/weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter weight"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Gender" />
+            <EditText
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter weight"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="DOB" />
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter dob"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Email" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter email"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/tvphoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Phoneno" />
+            <EditText
+                android:id="@+id/phoneno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter phoneno"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+
+         <!--   <TextView
+                android:id="@+id/tvpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Password" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter password"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvcpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Confirm Password" />
+
+            <EditText
+                android:id="@+id/confirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Confirm Password"
+                android:inputType="textPassword" /> -->
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#558000"
+                android:text="Update Profile"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:backgroundTint="#f4d03f"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

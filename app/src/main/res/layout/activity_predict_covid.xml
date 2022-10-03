@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PredictCovidActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFAA55"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text="Predict Covid" />
+
+            <TextView
+                android:id="@+id/tvage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Age" />
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter age"
+                android:layout_marginTop="10dp"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/tvtemperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Temperature" />
+            <EditText
+                android:id="@+id/temperature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter temperature"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvblood_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Blood Pressure" />
+            <EditText
+                android:id="@+id/blood_pressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter blood_pressure"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvoxygen_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Oxygen Levels" />
+            <EditText
+                android:id="@+id/oxygen_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter oxygen_levels"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvcritinine_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Critinine Levels" />
+            <EditText
+                android:id="@+id/critinine_levels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter critinine_levels"
+                android:layout_marginTop="10dp"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/tvgender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Gender" />
+            <Spinner
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvcough"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Cough" />
+            <Spinner
+                android:id="@+id/cough"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvheadache"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Headache" />
+            <Spinner
+                android:id="@+id/headache"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvcontacted_covid_persion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Contacted Covid Persion" />
+            <Spinner
+                android:id="@+id/contacted_covid_persion"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvpredict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#558000"
+                android:layout_marginTop="10dp"
+                android:text="Result" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#558000"
+                android:text="PREDICT"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:backgroundTint="#f4d03f"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

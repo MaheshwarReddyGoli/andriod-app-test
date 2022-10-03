@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/covid" />
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFAA55"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text="Login" />
+
+            <TextView
+                android:id="@+id/tvemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Email" />
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter email"
+                android:layout_marginTop="10dp"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/tvpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginTop="10dp"
+                android:text="Password" />
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter password"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword" />
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#558000"
+                android:text="Signin"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/newregtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#641E16"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:backgroundTint="#f4d03f"
+                android:text="New Registration" />
+
+            <TextView
+                android:id="@+id/forgotpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#641E16"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:backgroundTint="#ff003f"
+                android:text="Forgot Password" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

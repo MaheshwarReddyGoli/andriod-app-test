@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/titletv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#FF0000"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:text="Covid Forecasting" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/CovidPrediction"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#0066ff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#f4d03f"
+                android:text="Covid Prediction" />
+            <Button
+                android:id="@+id/bmi"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#0066ff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#f4d03f"
+                android:text="bmi\n" />
+        </LinearLayout>
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:orientation="horizontal">
+           <Button
+                android:id="@+id/vaccinated"
+               android:layout_width="180dp"
+               android:layout_height="100dp"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:textColor="#0066ff"
+               android:layout_marginTop="10dp"
+               android:textAlignment="center"
+               android:layout_marginRight="10dp"
+               android:backgroundTint="#f4d03f"
+                android:text="vaccinated\n" />
+          <Button
+              android:id="@+id/medicinereminder"
+              android:layout_width="180dp"
+              android:layout_height="100dp"
+              android:textSize="15sp"
+              android:textStyle="bold"
+              android:textColor="#0066ff"
+              android:layout_marginTop="10dp"
+              android:textAlignment="center"
+              android:layout_marginRight="10dp"
+              android:backgroundTint="#f4d03f"
+              android:text="Medicine Reminder" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="115dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/nearestpharmacy"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#0066ff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#f4d03f"
+                android:text="Nearest Pharmacies" />
+            <Button
+                android:id="@+id/FAQs"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#0066ff"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#f4d03f"
+                android:text="FAQs\n" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/lochistory"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#0066ff"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#f4d03f"
+                    android:text="Location History" />
+                <Button
+                    android:id="@+id/userpic"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#0066ff"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#f4d03f"
+                    android:text="Profile\n" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/nearcovid"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#0066ff"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#f4d03f"
+                    android:text="COVID PATIENTS\n" />
+
+                <Button
+                    android:id="@+id/logoutpic"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#0066ff"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="#f4d03f"
+                    android:text="Logout\n" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/homepic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/userpic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/user" />
+
+        <ImageView
+            android:id="@+id/logoutpic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:src="@drawable/logout" />  -->
+    </RelativeLayout>
